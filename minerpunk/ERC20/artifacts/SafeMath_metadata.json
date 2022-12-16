@@ -1,0 +1,46 @@
+{
+	"compiler": {
+		"version": "0.8.17+commit.8df45f5f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"details": "Wrappers over Solidity's arithmetic operations. NOTE: `SafeMath` is generally not needed starting with Solidity 0.8, since the compiler now has built in overflow checking.",
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"minerpunk/ERC20/MinePower.sol": "SafeMath"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"minerpunk/ERC20/MinePower.sol": {
+			"keccak256": "0x104563d72c661f080d6f84aacd7ac63fefe5cc0f9ee59b876ba1db72a9c2032a",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://18eff30faa0edfc0d2b3531042e19f03def21f9c1b2f437054a44a394f50bdbe",
+				"dweb:/ipfs/QmWMFccFV3q8ezkGEVwhFDgBxDUss33R9k99tL3CyAcdWS"
+			]
+		}
+	},
+	"version": 1
+}

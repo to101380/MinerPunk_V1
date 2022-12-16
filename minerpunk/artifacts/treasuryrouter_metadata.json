@@ -1,0 +1,88 @@
+{
+	"compiler": {
+		"version": "0.8.17+commit.8df45f5f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address payable",
+						"name": "to",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "dcf_amount",
+						"type": "uint256"
+					}
+				],
+				"name": "market",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"minerpunk/DcoffMine.sol": "treasuryRouter"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"@openzeppelin/contracts/token/ERC20/IERC20.sol": {
+			"keccak256": "0x9750c6b834f7b43000631af5cc30001c5f547b3ceb3635488f140f60e897ea6b",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://5a7d5b1ef5d8d5889ad2ed89d8619c09383b80b72ab226e0fe7bde1636481e34",
+				"dweb:/ipfs/QmebXWgtEfumQGBdVeM6c71McLixYXQP5Bk6kKXuoY4Bmr"
+			]
+		},
+		"@openzeppelin/contracts/utils/math/SafeMath.sol": {
+			"keccak256": "0x0f633a0223d9a1dcccfcf38a64c9de0874dfcbfac0c6941ccf074d63a2ce0e1e",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://864a40efcffdf408044c332a5aa38ec5618ed7b4eecb8f65faf45671bd6cdc65",
+				"dweb:/ipfs/QmQJquTMtc6fgm5JQzGdsGpA2fqBe3MHWEdt2qzaLySMdN"
+			]
+		},
+		"minerpunk/DcoffMine.sol": {
+			"keccak256": "0xa89fac252fab97d962918164d1c98679b5dcd207de9d45f43a30ec706e5702d1",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://725c032bb46a4fd0df7173674cc6d94fc4e2c299c03249bc52be74cba69de765",
+				"dweb:/ipfs/QmVcZyHA5VpZYhh9778bCmZY4kewhaBbZhSX13rLVZT7kc"
+			]
+		},
+		"minerpunk/IDCF/mineInterface.sol": {
+			"keccak256": "0xe88392f4f78b9db01c57d1fe13580e95e19db8365d84dccd26809ef1adf1601e",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://01c9b47dae487533f25e7ba4a846a9cabfe2a0463f201db52caf29c74771cced",
+				"dweb:/ipfs/QmWcZXDCmsog7secieFQL8ma1EP87SPcwBYxLyac9p478E"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,126 @@
+{
+	"compiler": {
+		"version": "0.8.17+commit.8df45f5f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "code",
+						"type": "string"
+					}
+				],
+				"name": "ViewPartner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_partner",
+						"type": "address"
+					}
+				],
+				"name": "qualifications",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_user",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "partner_",
+						"type": "address"
+					}
+				],
+				"name": "setRecommender",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"minerpunk/DcoffMine.sol": "IPartner"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"@openzeppelin/contracts/token/ERC20/IERC20.sol": {
+			"keccak256": "0x9750c6b834f7b43000631af5cc30001c5f547b3ceb3635488f140f60e897ea6b",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://5a7d5b1ef5d8d5889ad2ed89d8619c09383b80b72ab226e0fe7bde1636481e34",
+				"dweb:/ipfs/QmebXWgtEfumQGBdVeM6c71McLixYXQP5Bk6kKXuoY4Bmr"
+			]
+		},
+		"@openzeppelin/contracts/utils/math/SafeMath.sol": {
+			"keccak256": "0x0f633a0223d9a1dcccfcf38a64c9de0874dfcbfac0c6941ccf074d63a2ce0e1e",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://864a40efcffdf408044c332a5aa38ec5618ed7b4eecb8f65faf45671bd6cdc65",
+				"dweb:/ipfs/QmQJquTMtc6fgm5JQzGdsGpA2fqBe3MHWEdt2qzaLySMdN"
+			]
+		},
+		"minerpunk/DcoffMine.sol": {
+			"keccak256": "0xc6bab7992bedd7cf447269224cd3993bcea8ecb08269ff361d2b6348a422f1f9",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://bccb0f4e79c0706f7cfd45e90bcda31729073e52cd50264abce53d9125597362",
+				"dweb:/ipfs/QmYRbgRRSDwQ85zigtewc2s65W5ZnSscb7CMM8sQCSPVzE"
+			]
+		},
+		"minerpunk/IDCF/mineInterface.sol": {
+			"keccak256": "0x0f0866f86c24adb3bd37671981e9d948e6c94bf26099212bf559e0f5ee3b8ef4",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://b3f90d3fe95deaa91a6e11c1e3e7600c1c7b483a2ece9770e1a18b434e0ac3cc",
+				"dweb:/ipfs/QmWdFzUy4YLAPuJH19dMBYu4AAmE4tqzqC5fdCmdSZNW1S"
+			]
+		}
+	},
+	"version": 1
+}

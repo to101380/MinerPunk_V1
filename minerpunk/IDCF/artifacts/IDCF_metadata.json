@@ -1,0 +1,79 @@
+{
+	"compiler": {
+		"version": "0.8.17+commit.8df45f5f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "user",
+						"type": "address"
+					}
+				],
+				"name": "BlockScore",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "maxSupply",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"details": "Interface of an ERC721A compliant contract.",
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Dcoffer/IDCF/IDCF.sol": "IDCF"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Dcoffer/IDCF/IDCF.sol": {
+			"keccak256": "0x0ffd0baa58ce2fd5ec033115dc2445fed99cc40aea9ef5094e65425a725bcc47",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://adff88b8a0a3b8419adf4b1b81bdd5b761a71bb8e13c10615037ba70bd55a803",
+				"dweb:/ipfs/QmRvrg9N2pjP1xZrUWquLgfeYiGh7wesWyZ8Zpj1XBNCNv"
+			]
+		}
+	},
+	"version": 1
+}

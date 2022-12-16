@@ -1,0 +1,46 @@
+{
+	"compiler": {
+		"version": "0.8.17+commit.8df45f5f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"details": "Provides information about the current execution context, including the sender of the transaction and its data. While these are generally available via msg.sender and msg.data, they should not be accessed in such a direct manner, since when dealing with meta-transactions the account sending and paying for execution may not be the actual sender (as far as an application is concerned). This contract is only required for intermediate, library-like contracts.",
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"minerpunk/ERC20/MinePower.sol": "Context"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"minerpunk/ERC20/MinePower.sol": {
+			"keccak256": "0x104563d72c661f080d6f84aacd7ac63fefe5cc0f9ee59b876ba1db72a9c2032a",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://18eff30faa0edfc0d2b3531042e19f03def21f9c1b2f437054a44a394f50bdbe",
+				"dweb:/ipfs/QmWMFccFV3q8ezkGEVwhFDgBxDUss33R9k99tL3CyAcdWS"
+			]
+		}
+	},
+	"version": 1
+}
