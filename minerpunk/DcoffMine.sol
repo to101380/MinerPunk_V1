@@ -11,8 +11,8 @@ import './IDCF/mineInterface.sol';
 
 contract DcoffMine  {
   using SafeMath for uint;  
-  mine DCFmine = mine(0xB59Ec56C2993cCb4E274E273d66699B17466D2b5);
-  IERC20 dcoff =  IERC20(0x78Bdb6eF9bC1D302c7d388dC40b38092745c8F2d);
+  mineIF DCFmine = mineIF(0x90544049d50c012caF6F5F1C10344b7A9c05A064);
+  IERC20 dcoff =  IERC20(0xC74Ab3FF349cE64a349854BcD5dc2D542371350F);
   
 
   

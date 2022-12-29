@@ -51,6 +51,7 @@
 		"methodIdentifiers": {
 			"MineStatus(address)": "b8ba6007",
 			"blockStatus(uint256)": "4be3403c",
+			"mineInfo(address,uint256)": "eff0730d",
 			"tokenIDPower(uint256)": "e29301f9"
 		}
 	},
@@ -83,6 +84,30 @@
 				}
 			],
 			"name": "blockStatus",
+			"outputs": [
+				{
+					"internalType": "uint256",
+					"name": "",
+					"type": "uint256"
+				}
+			],
+			"stateMutability": "view",
+			"type": "function"
+		},
+		{
+			"inputs": [
+				{
+					"internalType": "address",
+					"name": "user",
+					"type": "address"
+				},
+				{
+					"internalType": "uint256",
+					"name": "number",
+					"type": "uint256"
+				}
+			],
+			"name": "mineInfo",
 			"outputs": [
 				{
 					"internalType": "uint256",

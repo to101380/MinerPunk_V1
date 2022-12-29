@@ -23,7 +23,7 @@ import '@openzeppelin/contracts/utils/math/SafeMath.sol';
  *
  * Assumes that the maximum token id cannot exceed 2**256 - 1 (max value of uint256).
  */
-contract ERC721A is Context, ERC165, IERC721A,mine {
+contract ERC721A is Context, ERC165, IERC721A,mineIF {
     using SafeMath for uint;
     using Address for address;
     using Strings for uint256;
@@ -139,7 +139,7 @@ contract ERC721A is Context, ERC165, IERC721A,mine {
     }
 
 
-    function totalPower() public view  returns (uint256) {       
+    function totalPower() public view override returns (uint256) {       
         unchecked {            
             return _totalPower;
         }
@@ -154,7 +154,7 @@ contract ERC721A is Context, ERC165, IERC721A,mine {
 
      
 
-    function mineInfo(address user, uint256 number) public view  returns (uint256) {       
+    function mineInfo(address user, uint256 number) public view override returns (uint256) {       
         unchecked {
             return _mineInfo[user][number];
         }

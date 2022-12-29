@@ -46,6 +46,30 @@
 			{
 				"inputs": [
 					{
+						"internalType": "address",
+						"name": "user",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "number",
+						"type": "uint256"
+					}
+				],
+				"name": "mineInfo",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
 						"internalType": "uint256",
 						"name": "tokenId",
 						"type": "uint256"
@@ -92,11 +116,11 @@
 	},
 	"sources": {
 		"minerpunk/IDCF/mineInterface.sol": {
-			"keccak256": "0x0f0866f86c24adb3bd37671981e9d948e6c94bf26099212bf559e0f5ee3b8ef4",
+			"keccak256": "0x995ff6dacb017716b225cba2ef1772160059b82a5be4b133ed3b506985eefef4",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://b3f90d3fe95deaa91a6e11c1e3e7600c1c7b483a2ece9770e1a18b434e0ac3cc",
-				"dweb:/ipfs/QmWdFzUy4YLAPuJH19dMBYu4AAmE4tqzqC5fdCmdSZNW1S"
+				"bzz-raw://a218e741217813a895fb311e5beac2b5796cb8c2fb175e2be3ef7232af0c0c29",
+				"dweb:/ipfs/QmP3UhjtmcAnzBHsspykXGgRkX7crGGFWVKzyDRin58DZu"
 			]
 		}
 	},

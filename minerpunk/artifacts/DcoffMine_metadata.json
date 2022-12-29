@@ -81,19 +81,19 @@
 			]
 		},
 		"minerpunk/DcoffMine.sol": {
-			"keccak256": "0x57593cecb4f5037b371a7e2be834f0bf1cdf3e6415287affb9a53f27f875944d",
+			"keccak256": "0x2f79b15d90cb69b7fcd31443aa0b3542818fdfd5f21e3b104257eb030a85837e",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://beded5321fb180c40f71cad1ba843f60bcd04e75a9bccdff34d7a7dd734fb149",
-				"dweb:/ipfs/QmXZrFENnGWUKPGRk7uZpx16NHAYsXvzSnejNYobTSS1Lo"
+				"bzz-raw://3833d356f5563082b0dfa34f5e4e36dfebb2d0e7e7f8c74fe6145ed129776436",
+				"dweb:/ipfs/QmXpNmhno6rT2yPT2d6DYEBbxY6xd8hHqq34TS7N5ua5iA"
 			]
 		},
 		"minerpunk/IDCF/mineInterface.sol": {
-			"keccak256": "0x0f0866f86c24adb3bd37671981e9d948e6c94bf26099212bf559e0f5ee3b8ef4",
+			"keccak256": "0xdef241db2e3a1d0775903a301a8ac336ad0912b42f21fd39fc9e4f3048c469e9",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://b3f90d3fe95deaa91a6e11c1e3e7600c1c7b483a2ece9770e1a18b434e0ac3cc",
-				"dweb:/ipfs/QmWdFzUy4YLAPuJH19dMBYu4AAmE4tqzqC5fdCmdSZNW1S"
+				"bzz-raw://1cdb5cf6622eb62852cb249eaae8fb69b1d01bf7abd385fa6ba4de4a7aa54e84",
+				"dweb:/ipfs/QmewuZmwMUksWHTfxtJRR2jgGVq4CdD8PKVEneY5hDfpXa"
 			]
 		}
 	},

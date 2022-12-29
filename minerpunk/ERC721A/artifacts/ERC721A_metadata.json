@@ -761,11 +761,11 @@
 			]
 		},
 		"minerpunk/ERC721A/ERC721A.sol": {
-			"keccak256": "0xbdd1eb8d1465fb5a548fcc8b55fcdd3c616d5fe6e751401fc15e9e1bf5d748e0",
+			"keccak256": "0x699bd289276d0b334bd4bb4b8a20b6d2e07b5262360aa3c82a94322dd7659d21",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://384db253070adbd232ed5877349a76c090c9f8804fd58398f77b4737b22951e3",
-				"dweb:/ipfs/QmNgRVidNCBFK3bAPg3dcbCWhvU5ZZ9MMqsRVjGnxTV9GM"
+				"bzz-raw://cea35c2b8e13c197c3679d7adc6a7dc4913ba819f0a03caad36f2dcc9f0c9357",
+				"dweb:/ipfs/QmTGUgqnpLdzCAysDQw3e73CT2shHSxUEchDkhX3Ef4Uq8"
 			]
 		},
 		"minerpunk/ERC721A/IERC721A.sol": {
@@ -777,11 +777,11 @@
 			]
 		},
 		"minerpunk/IDCF/mineInterface.sol": {
-			"keccak256": "0x0f0866f86c24adb3bd37671981e9d948e6c94bf26099212bf559e0f5ee3b8ef4",
+			"keccak256": "0xdef241db2e3a1d0775903a301a8ac336ad0912b42f21fd39fc9e4f3048c469e9",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://b3f90d3fe95deaa91a6e11c1e3e7600c1c7b483a2ece9770e1a18b434e0ac3cc",
-				"dweb:/ipfs/QmWdFzUy4YLAPuJH19dMBYu4AAmE4tqzqC5fdCmdSZNW1S"
+				"bzz-raw://1cdb5cf6622eb62852cb249eaae8fb69b1d01bf7abd385fa6ba4de4a7aa54e84",
+				"dweb:/ipfs/QmewuZmwMUksWHTfxtJRR2jgGVq4CdD8PKVEneY5hDfpXa"
 			]
 		}
 	},
